@@ -36,6 +36,7 @@ function App() {
     <div>
       <NewExpense onAddExpenseData={addExpenseHandler} />
       <Expenses item={expenses} />
+      <div>yeah</div>
     </div>
   );
 }
